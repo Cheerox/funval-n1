@@ -9,14 +9,36 @@ li{list-style: none;}
 
 a{
     text-decoration: none;
+
+}
+
+
+
+.titulo-n{
+    color: wheat;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+
+.sub-titu{
+    position: relative;
+    left: 39%;
+    text-align: center;
+    width: 22%;
+    border-style: solid;
+    margin-top: 20px;
+    font-family: sans-serif;
     
 }
 
 .card{
-    color: white;
+    text-align: center;
     background-color: aqua;
     margin: 20px;
-    width: 150px;
+    width: 200px;
     padding: 15px 10px;
     border-radius: 12px;
 }
