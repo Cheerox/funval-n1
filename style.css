@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: cadetblue;}
+
+li{list-style: none;}
+
+a{
+    text-decoration: none;
+    
+}
+
+.card{
+    color: white;
+    background-color: aqua;
+    margin: 20px;
+    width: 150px;
+    padding: 15px 10px;
+    border-radius: 12px;
+}
