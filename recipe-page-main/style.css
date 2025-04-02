@@ -22,7 +22,7 @@ body{
 
 
 #imagen-omelet{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
     border-radius: 30px;
     width: 100%;
     
@@ -37,5 +37,138 @@ body{
 }
 
 .text-1{
+    margin-bottom:30px;
     color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sub-titulo1{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lista-1{
+    padding-left: 46px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lista-1 li{
+    padding-top: 11px;
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.lista-1 li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.sub-titulo2{
+    margin-top: 30px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.lista-2{
+    padding-left: 20px;
+    
+}
+.lista-2 li{
+    padding-top: 15px;
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lista-2 li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+#separador-1{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: hsl(330, 100%, 98%);
+}
+
+.sub-titulo3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.lista-3{
+    padding-left: 25px;
+}
+
+.lista-3 li {
+    padding-top: 15px;
+    padding-left: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lista-3 li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.sub-titulo4{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.text-2{
+    padding-top: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tabla-nutricion{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabla-nutricion td{
+    color: hsl(30, 10%, 34%);
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#valores-caloricos{
+    color: hsl(14, 45%, 36%);
 }
