@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.seccion-cuadro{
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 35px 35px 35px 35px;
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+}
+
+
+#imagen-omelet{
+    margin: 0px 0px 0px 0px;
+    border-radius: 30px;
+    width: 100%;
+    
+}
+
+.titulo-1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+}
