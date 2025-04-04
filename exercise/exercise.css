@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+}
+
+body{
+    border: solid 10px white;   
+}
+header{
+    border: solid 5px blue;
+    height: 70px;
+
+}
+
+nav{
+    border: solid 5px orange;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+picture,
+ul{
+    border: solid 5px green;
+}
+
+picture{
+    width: 20%;
+    height:100%;
+}
+
+ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    border: solid 3px red;
+    width: 25%;
+    height: 80%;
+    list-style: none;
+    
+}
+
+main{
+    border: solid 8px orange;
+    width: 100%;
+    height: 700px;
+}
+.seccion1{
+    border: 5px solid cornflowerblue;
+    height: 350px;
+    display: flex;
+}
+
+.div-contenedor1{
+    height: 100%;
+    width: 50%;
+    border: 4px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36%;
+    padding: 30px 0px ;
+}
+
+.div-contenedor1 div {
+    border: solid 3px red;
+    height: 30%;
+    width: 10%;
+}
+
+
+.div-contenedor2{
+    height: 100%;
+    width: 50%;
+    border: 4px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.div-contenedor2 img{
+    border: solid 4px red;
+    height: 50%;
+    width: 30%;
+}
+
+.seccion2{
+    border: 5px solid cornflowerblue;
+    display: flex;
+    height: 46%;
+}
+
+.div-contenedor2-1{
+    border: 4px solid green;
+    height: 100%;
+    width: 50%;
+    padding: 5px 0px 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-contenedor2-1 h1{
+    border: 3px solid red;
+    height: 30%;
+    width: 30%;
+    text-align: center;
+}
+
+.div-contenedor2-1 p {
+    border: 3px solid red;
+    height: 30%;
+    width: 35rem;
+}
+
+.div-contenedor2-2{
+    border: 4px solid green;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+}
+
+.div-contenedor2-2 img{
+    border: 3px solid red;
+    height: 13rem;
+    width: 20%;
+}
