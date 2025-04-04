@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@263&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a6c4af;
+}
+
+.head-titulo{
+    height:100px;
+    background-color: #73a682;
+    margin: 0;
+    
+   
+}
+.head-titulo h1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.barra-nav{
+    position: sticky;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    color: blue;
+    font-family: sans-serif;
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+}
+
+.barra-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.seccion-main img{
+    width: 100%;
+
+    opacity: 0.5;
+}
+
+.contenedor1{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+}
+
+.contenedor1 h2{
+    color: rgb(26, 26, 158);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 70px;
+}
+.contenedor1 p {
+    text-align: center;
+    margin: auto;
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.contenedor1 button{
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(85, 85, 231);
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contenedor1 button a{
+    text-decoration: none;
+}
+
+.contenedor2{
+    position: absolute;
+    left: 17%;
+    background-color: aliceblue;
+    width: 75em;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.contenedor2 h2{
+    position: relative;
+    display: flex;
+    text-align: left;
+}
